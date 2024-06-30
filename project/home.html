@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./flexboxgrid/flexboxgrid.css">
+    <script src="https://kit.fontawesome.com/fe8d275cd8.js" crossorigin="anonymous"></script>
+    <title>home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="rigester">
+                    <a href="#"><button><i class="fa-solid fa-user"></i> login / rigester </button></a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./images/1.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./images/2.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./images/3.jpg" alt="">
+                    <p></p>
+                </div>
+            </div>
+            <div class="btn">
+                <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="products">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shopping-cards">
+                        <div class="img-sec">
+                            <img src="./images/gun 1.jpg" alt="">
+                            <span class="hot-o">Hot offer</span>
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">Magnum Research Desert Eagle Mark XIX 357 Magnum Pistol</div>
+                        <div class="btns">
+                            <div class="right-btns">
+                                <span class="price">$150</span>
+                            </div>
+                            <div class="left-btns">
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">favorite</a>
+                                    <a href="" class="b-icon"><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">buy</a>
+                                    <a href="" class="b-icon"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shopping-cards">
+                        <div class="img-sec">
+                            <img class="c1" src="./images/gun 2.jpg" alt="">
+                            <span class="hot-o">Hot offer</span>
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">Diamondback Firearms DB15 5.56x45 NATO 16" Black, M-LOK Handguard, 30+1</div>
+                        <div class="btns">
+                            <div class="right-btns">
+                                <span class="price">$450</span>
+                            </div>
+                            <div class="left-btns">
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">favorite</a>
+                                    <a href="" class="b-icon"><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">buy</a>
+                                    <a href="" class="b-icon"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shopping-cards">
+                        <div class="img-sec">
+                            <img class="c2" src="./images/gun 3.jpg" alt="">
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">Maverick 88 Security 12 GA 20" Cylinder Bore 7+1</div>
+                        <div class="btns">
+                            <div class="right-btns">
+                                <span class="price">$630</span>
+                            </div>
+                            <div class="left-btns">
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">favorite</a>
+                                    <a href="" class="b-icon"><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">buy</a>
+                                    <a href="" class="b-icon"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shopping-cards">
+                        <div class="img-sec">
+                            <img src="./images/gun 4.jpg" alt="">
+                            <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">Taurus Raging Hunter Black 8.37" .460 S&W Revolver</div>
+                        <div class="btns">
+                            <div class="right-btns">
+                                <span class="price">$420</span>
+                            </div>
+                            <div class="left-btns">
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">favorite</a>
+                                    <a href="" class="b-icon"><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="ext-btns">
+                                    <a href="" class="b-text">buy</a>
+                                    <a href="" class="b-icon"><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./main.js"></script>
+</body>
+</html>

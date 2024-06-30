@@ -1,0 +1,16 @@
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
